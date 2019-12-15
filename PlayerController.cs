@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 using TMPro;
 /*
 Player movement on a flat terrain. Move using the arrow keys or WASD. I am working on gravity, which I have commented out.
-Bug(s) discovered: issues with rotation after teleportation
+Bug(s) discovered: issues with rotation after teleportation(this stems from the CameraController script, but it would be a good idea to look at this one)
 Note that there are some additions besides simple movement, including:
 Item.isTeleport - bool value taken from the item script, which tells whether or not to change player position and rotation. In this case, the new position is set to the enemy's x, current y, and the enemy's z+40.
 Dialogue.isMove - bool value taken from the dialogue script, which will disable the player's movement when set to false.
@@ -13,7 +13,7 @@ anim.SetFloat - changes the value of float "Speed" to the player's movement, whi
 isDialogue - is set to true. When the player's position exceeds the boundaries of the terrain, it will activate the dialogue and the system, set "Speed" to 0, and rotate the player towards system. Only occurs once. I might change this part in the future. 
 system - a gameobject which represents the player's guide. No particular meaning behind the name.
 SetFocus - interaction with an interactable
-pivot - a gameobject which represents an empty gameobject which stores the camera's rotation
+pivot - a gameobject which represents an empty gameobject that stores the camera's rotation
 */
 public class PlayerController : MonoBehaviour
 {
