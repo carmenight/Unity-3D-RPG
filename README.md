@@ -1,5 +1,5 @@
 # Unity-3D-RPG
-Basic code for a 3D RPG in C# for Unity. Must be heavily rewritten to apply to each unique case. <br/>
+Basic code for a 3D RPG in C# for Unity. Must be heavily rewritten to apply to each unique case.<br/>
 Currently working on:<br/>
 1. Maximizing performance(mostly tiny changes)<br/>
   a. reducing Update methods<br/>
