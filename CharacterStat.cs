@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using System.Collections.ObjectModel;
+/*
+Complex character stat which applies stat modifiers. Relies on another script to get a base stat value. I haven't played around with this yet.
+Bug(s) discovered: none yet
+*/
 [Serializable]
 public class CharacterStat
 {
