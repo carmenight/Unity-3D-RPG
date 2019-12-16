@@ -7,3 +7,4 @@ Currently working on:<br/>
   c. storing reference to main camera in 'PlayerController' in Start<br/>
   d. testing for bugs<br/>
 2. Exploring gravity and raycasts to detect slopes in 'PlayerController'<br/>
+3. Settings script.<br/>
