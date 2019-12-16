@@ -17,7 +17,7 @@ Bug(s) discovered: script is attached to parent, and collider as well. Collision
 Additions:
 shield - item that blocks damage 
 ItemTracker.damageBlocked - float that stores how much damage the shield has blocked
-Item.shieldUse - int set to 1 when using shield, and set to 2 when not using shield
+Item.shieldUse - int set to 1 when using shield, and set to 0 when not using shield
 */
 public class EnemyAttack : MonoBehaviour
 {
