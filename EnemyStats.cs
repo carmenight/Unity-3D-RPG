@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+/*
+Character health stat. I'm satisfied with it.
+Bug(s) discovered: none yet
+*/
 public class EnemyStats : MonoBehaviour
 {
     public float maxHealth;
