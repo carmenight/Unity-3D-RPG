@@ -2,6 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+/*
+An example dialogue script. Might come back to this in the future.
+Bug(s) discovered: none yet
+Additions include:
+continueButton - a UI button that runs NextSentence() on click
+system - a gameobject which represents the player's guide. No particular meaning behind the name.
+stats - a gameobject which represents the stat bar. Not activated until index is 12.
+skip - text that tells the player they can press 'N' to skip the dialogue
+item - item that will be added to the inventory at a certain index in the dialogue
+*/
 public class Dialogue : MonoBehaviour
 {
     public TextMeshProUGUI textDisplay;
